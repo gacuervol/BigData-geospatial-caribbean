@@ -61,7 +61,7 @@ reducer = Code("""function(key, values){
 }""")
 ```
 ### 3. Geospatial Visualization
-![Data Flow](https://github.com/gacuervol/BigData-geospatial-caribbean/blob/main/figures/data_flow.png)  
+![Data Flow](https://github.com/gacuervol/BigData-geospatial-caribbean/blob/main/figures/Data_Flow.png) 
 *Multi-terabyte processing pipeline from raw data to interactive dashboards*
 
 ## 📊 Key Visualizations  
