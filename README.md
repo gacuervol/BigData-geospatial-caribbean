@@ -1,7 +1,7 @@
 # 🌊 Colombian Caribbean Coastal Analysis | Big Data & Geospatial  
 *Geological and geomorphological characterization using MongoDB and geospatial visualization*  
 
-![Python](https://img.shields.io/badge/Python-3.7+-blue?logo=python) ![MongoDB](https://img.shields.io/badge/MongoDB-4.4+-green?logo=mongodb) ![PyMongo](https://img.shields.io/badge/PyMongo-3.11-red) ![Plotly](https://img.shields.io/badge/Plotly-5.0+-lightblue)
+![Python](https://img.shields.io/badge/Python-3.7+-blue?logo=python) ![MongoDB](https://img.shields.io/badge/MongoDB-4.4+-green?logo=mongodb) ![PyMongo](https://img.shields.io/badge/PyMongo-3.11-red) ![Plotly](https://img.shields.io/badge/Plotly-5.0+-lightblue) ![BigData](https://img.shields.io/badge/Big_Data-3.2M_Records-ff69b4) ![GeoData](https://img.shields.io/badge/Geospatial-4326_CRS-lightgrey)
 
 ## 📌 Project Overview  
 **Objective**: Process and analyze heterogeneous coastal datasets from SIAM-INVEMAR using Big Data technologies:  
@@ -99,20 +99,13 @@ db.Coast_geomrf.map_reduce(mapper, reducer, 'geomorf_results')
 
 ## 📂 Repository Structure  
 ```text
-/Data
-├── raw/                  # Original JSON datasets
-│   ├── coastal_types.json
-│   ├── geomorphology.json
-│   └── sediment_facies.json
 /Notebooks
-├── 1_Data_Acquisition.ipynb
-├── 2_MongoDB_Integration.ipynb  # Main workflow
-/scripts
-├── geospatial_utils.py   # Visualization functions
+├── Proyecto.ipynb
 /figures
-├── coastal_lithology.png             
-├── geomorph_units.png    # Output visualizations
-└── sediment_facies.png
+├── Data_Flow.png           
+├── Facies_Chart.png   # Output visualizations
+└── Geomorph_Map.png
+└── Lithology_Plot.png
 ```
 
 ## 🚀 How to Use  
