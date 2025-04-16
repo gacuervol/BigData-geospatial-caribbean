@@ -24,7 +24,7 @@ import pandas as pd  # Data analysis
 
 ## 📊 Key Visualizations  
 ### 1. Coastal Lithology Distribution  
-![Lithology Plot](figures/coastal_lithology.png)  
+![Lithology Plot](https://github.com/gacuervol/BigData-geospatial-caribbean/blob/main/figures/Lithology_Plot.png)
 *Deposit types showing lacustrine (32.4%) and marine (14.4%) dominance*
 
 ### 2. Geomorphological Units  
@@ -34,11 +34,11 @@ mapper = Code("""function(){emit('total_area',this.properties.Shape_Area)}""")
 reducer = Code("""function(k,v){return Array.sum(v)}""")
 db.Coast_geomrf.map_reduce(mapper, reducer, 'geomorf_results')
 ```
-![Geomorph Map](figures/geomorph_units.png)  
+![Geomorph Map](https://github.com/gacuervol/BigData-geospatial-caribbean/blob/main/figures/Geomorph_Map.png)
 *Pantano de manglar (18%) and Colinas y montañas (16.9%) as dominant units*
 
 ### 3. Sediment Facies Classification  
-![Facies Chart](figures/sediment_facies.png)  
+![Facies Chart](https://github.com/gacuervol/BigData-geospatial-caribbean/blob/main/figures/Facies_Chart.png)  
 *Lithoclastic mud dominates proximal platform (34.8%)*
 
 ## 🔍 Statistical Insights  
